@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="graphic/pipewright-logo-k8s-dark.svg" alt="Pipewright" width="380">
+  <img src="graphic/pipewright-logo-k8s-dark.svg?c=0" alt="Pipewright" width="380">
 </p>
 
 # pipewright
