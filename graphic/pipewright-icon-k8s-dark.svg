@@ -1,25 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512" role="img" aria-label="Pipewright">
-  <!-- Rounded square badge, seven-spoke helm wheel, sliced P in the hub.
-       Rim radius 20.5 stroke 5, spokes 3.5, handles 5. Edit the rim once, the rest follow its radius. -->
+  <!-- Sliced helm: octagon rim, four spokes, six handles and a diamond hub, using only 0, 45 and 90 degree edges.
+       One cut splits the whole mark: the upper half ends on x+y=62, the lower half on x+y=66. -->
   <rect width="64" height="64" rx="14" fill="#1E40AF"/>
-  <g fill="#F8FAFC">
-    <circle cx="32" cy="32" r="20.5" fill="none" stroke="#F8FAFC" stroke-width="5"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(0 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(0 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(51.43 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(51.43 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(102.86 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(102.86 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(154.29 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(154.29 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(205.71 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(205.71 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(257.14 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(257.14 32 32)"/>
-    <rect x="30.25" y="11.5" width="3.5" height="10" rx="1.75" transform="rotate(308.57 32 32)"/>
-    <rect x="29.5" y="3" width="5" height="8.5" rx="2.5" transform="rotate(308.57 32 32)"/>
+  <clipPath id="pwk8s-icon-dark-upper"><path d="M0 0H62L0 62Z"/></clipPath>
+  <clipPath id="pwk8s-icon-dark-lower"><path d="M66 0V66H0Z"/></clipPath>
+  <g clip-path="url(#pwk8s-icon-dark-upper)" fill="#F8FAFC">
+    <path d="M25 14H39L50 25V39L39 50H25L14 39V25Z" fill="none" stroke="#F8FAFC" stroke-width="6" stroke-linejoin="miter"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(0 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(90 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(180 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(270 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(0 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(90 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(135 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(180 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(270 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(315 32 32)"/>
+    <path d="M32 21 43 32 32 43 21 32Z"/>
   </g>
-  <circle cx="32" cy="32" r="11.5" fill="#F8FAFC"/>
-  <path fill="#1E40AF" d="M26.56 24.52 34.72 24.52 35.40 25.20 32.68 27.92 29.96 27.92 29.96 30.64 26.56 34.04Z"/>
-  <path fill="#1E40AF" d="M36.76 26.56 37.44 27.24 37.44 32.68 34.72 35.40 29.96 35.40 29.96 39.48 26.56 39.48 26.56 36.76 31.32 32.00 33.36 32.00 34.04 31.32 34.04 29.28Z"/>
+  <g clip-path="url(#pwk8s-icon-dark-lower)" fill="#22D3EE">
+    <path d="M25 14H39L50 25V39L39 50H25L14 39V25Z" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linejoin="miter"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(0 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(90 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(180 32 32)"/>
+    <rect x="29.5" y="14" width="5" height="18" transform="rotate(270 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(0 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(90 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(135 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(180 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(270 32 32)"/>
+    <rect x="28.5" y="3" width="7" height="13" transform="rotate(315 32 32)"/>
+    <path d="M32 21 43 32 32 43 21 32Z"/>
+  </g>
 </svg>

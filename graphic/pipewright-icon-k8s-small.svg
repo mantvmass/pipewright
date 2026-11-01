@@ -1,15 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512" role="img" aria-label="Pipewright">
-  <!-- 16 px optical size: heavier wheel, plain hub. Not for use above 24 px. -->
+  <!-- 16 px optical size: heavier rim and spokes, no handles, same hub and cut. Not for use above 24 px. -->
   <rect width="64" height="64" rx="14" fill="#0F1B4D"/>
-  <g fill="#F8FAFC">
-    <circle cx="32" cy="32" r="21" fill="none" stroke="#F8FAFC" stroke-width="6"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(0 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(51.43 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(102.86 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(154.29 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(205.71 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(257.14 32 32)"/>
-    <rect x="30" y="4" width="4" height="26" rx="2" transform="rotate(308.57 32 32)"/>
+  <clipPath id="pwk8s-icon-small-upper"><path d="M0 0H62L0 62Z"/></clipPath>
+  <clipPath id="pwk8s-icon-small-lower"><path d="M66 0V66H0Z"/></clipPath>
+  <g clip-path="url(#pwk8s-icon-small-upper)" fill="#F8FAFC">
+    <path d="M23 12H41L52 23V41L41 52H23L12 41V23Z" fill="none" stroke="#F8FAFC" stroke-width="7.5" stroke-linejoin="miter"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(0 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(90 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(180 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(270 32 32)"/>
+    <path d="M32 21 43 32 32 43 21 32Z"/>
   </g>
-  <circle cx="32" cy="32" r="8" fill="#F8FAFC"/>
+  <g clip-path="url(#pwk8s-icon-small-lower)" fill="#22D3EE">
+    <path d="M23 12H41L52 23V41L41 52H23L12 41V23Z" fill="none" stroke="#22D3EE" stroke-width="7.5" stroke-linejoin="miter"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(0 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(90 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(180 32 32)"/>
+    <rect x="29" y="12" width="6" height="20" transform="rotate(270 32 32)"/>
+    <path d="M32 21 43 32 32 43 21 32Z"/>
+  </g>
 </svg>
