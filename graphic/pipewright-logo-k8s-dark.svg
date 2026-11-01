@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-label="Pipewright Kubernetes continuous delivery">
   <defs>
-    <linearGradient id="pwk8s-dark-word" gradientUnits="userSpaceOnUse" x1="215" y1="0" x2="315" y2="0">
+    <linearGradient id="pwk8s-dark-word" gradientUnits="userSpaceOnUse" x1="213" y1="0" x2="331" y2="0">
       <stop offset="0" stop-color="#60A5FA"/>
       <stop offset="1" stop-color="#22D3EE"/>
     </linearGradient>
   </defs>
 
   <!-- Icon (80x80, vertically centered in 96px canvas) -->
-  <g transform="translate(45 8) scale(1.25)">
+  <g transform="translate(33 8) scale(1.25)">
     <!-- Rounded square badge, seven-spoke helm wheel, sliced P in the hub.
          Rim radius 20.5 stroke 5, spokes 3.5, handles 5. Edit the rim once, the rest follow its radius. -->
     <rect width="64" height="64" rx="14" fill="#1E40AF"/>
@@ -34,9 +34,9 @@
   </g>
 
   <!-- Wordmark: vertically centered on the icon's center line (y = 48) -->
-  <text x="145" y="59" textLength="170" lengthAdjust="spacing"
+  <text x="133" y="60.5" textLength="198" lengthAdjust="spacing"
         font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
-        font-size="35" letter-spacing="-1.1" fill="#F8FAFC">
-    <tspan font-weight="400">Pipe</tspan><tspan font-weight="750" fill="url(#pwk8s-dark-word)">wright</tspan>
+        font-size="40" letter-spacing="-1.25" fill="#F8FAFC">
+    <tspan font-weight="600">Pipe</tspan><tspan font-weight="800" fill="url(#pwk8s-dark-word)">wright</tspan>
   </text>
 </svg>
